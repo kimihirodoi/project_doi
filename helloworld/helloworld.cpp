@@ -6,12 +6,13 @@ using namespace std;
 
 int main()
 {
-   vector<string> msg {"Hello", "g++", "World", "from", "VS Code", "and the C++ extension!"};
-
-   for (const string& word : msg)
-   {
-      cout << word << " ";
+   int n=5;
+   vector<int>v(n,0);
+   for(int i=0;i<n;i++){
+      v[i]=i;
    }
-   cout << endl;
+   for(int i=0;i<n;i++){
+      cout<<v[i]<<endl;
+   }
 }
 
