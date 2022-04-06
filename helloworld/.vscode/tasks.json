@@ -6,8 +6,10 @@
 			"label": "g++ build active file",
 			"command": "/usr/bin/g++",
 			"args": [
-				"-fdiagnostics-color=always",
+				
+			    "-fdiagnostics-color=always",
 				"-g",
+				"-D _GLIBCXX_DEBUG",
 				"${file}",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
