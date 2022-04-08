@@ -12,8 +12,9 @@ int main()
    for(int i=0;i<n+1;i++){
       v[i]=i;
    }
-   for(int i=0;i<n;i++){
+   for(int i=0;i<n+1;i++){
       cout<<v[i]<<endl;
    }
+   cout<<"hhh"<<endl;
 }
 
